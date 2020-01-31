@@ -4,6 +4,8 @@ import logo from './logo.svg';
 import { Dropdown,FormGroup,Form } from 'react-bootstrap';
 import Background from './data/img.jpg';
 import './App.css';
+import firebase from 'firebase/app';
+import 'firebase/database';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 var sectionStyle = {
@@ -77,4 +79,19 @@ return(
 );
 
 }
+const firebaseConfig = {
+  apiKey: "AIzaSyBdTkdXSYAUdiiXAFlVaaAgJ_QQaZfdyHI",
+  authDomain: "onthego-101.firebaseapp.com",
+  databaseURL: "https://onthego-101.firebaseio.com",
+  projectId: "onthego-101",
+  storageBucket: "onthego-101.appspot.com",
+  messagingSenderId: "768309926661",
+  appId: "1:768309926661:web:7ff6e9a9e622d97c3f756c",
+  measurementId: "G-8RNRCGX4PZ"
+};
+
+firebase.initializeApp(firebaseConfig);
+const db = firebase.database().ref();
+
+export {db};
 export default App;

@@ -1,0 +1,149 @@
+{
+    "module": {
+      
+      "name": "Singapore",
+      "questions": 10,
+      
+    },
+    "questions": [
+      {
+        "number": 1,
+        "question": "Do I need any vaccination?",
+        "answers": [
+          "Yes",
+          "No",
+          
+        ],
+        "correct_answer": "Yes",
+        "pop": "It depends - A Yellow Fever vaccination certificate is required for travellers 1 year of age and older coming from – or who are in airport transit for more than 12 hours within – a country with risk of Yellow Fever transmission."
+      },
+      {
+        "number": 2,
+        "question": "What is the emergency number in Singapore",
+        "answers": [
+          "911",
+          "112",
+          "999",
+          "Ask Siri"
+        
+        ],
+        "correct_answer": "999",
+        "pop": "You will need to call 999 for Police and 995 for Ambulance and Fire Brigade!"
+      }
+
+
+      {
+        "number": 3,
+        "question": "Can I drink the tap water in the country",
+        "answers": [
+          "Yes of course!",
+          "NO!"
+        
+        ],
+        "correct_answer": "Yes of course!",
+        "pop": ""
+      }
+
+      {
+        "number": 4,
+        "question": "What is the legal drinking age in Singapore?",
+        "answers": [
+          "16",
+          "18",
+          "21"
+        
+        ],
+        "correct_answer": "18",
+        "pop": ""
+      }
+
+      {
+        "number": 5,
+        "question": "Which two of the following law is correct?",
+        "answers": [
+          "You cannot wear flip flops in public.",
+          "You cannot get chewing gum without prescription.",
+          "You cannot eat or drink in parks."
+        
+        ],
+        "correct_answer": "You cannot get chewing gum without prescription.",
+        "pop": "Only therapeutic, dental, or nicotine chewing gum can be bought from a doctor or registered pharmacist!"
+      }
+
+      {
+        "number": 6,
+        "question": "What are the functional languages in Singapore?",
+        "answers": [
+          "Singlish",
+          "English",
+          "Chinese",
+          "Tamil",
+          "Hindi",
+          "Malay",
+        
+        ],
+        "correct_answer": ["English","Chinese","Tamil", "Malay"],
+        "pop": "There are multiple languages spoken in the country, and you can get around with English, Chinese, Malay, and Tamil in most part of the country!"
+      }
+
+      {
+        "number": 7,
+        "question": "What is the best way to get around the city?",
+        "answers": [
+          "Drive your own car",
+          "Use a helicopter",
+          "Bus and MRT",
+          "Of course use the Hyperloop!"
+        
+        ],
+        "correct_answer": "Bus and MRT",
+        "pop": "The public transport system is very well-established in Singapore. You can purchase a Singapore tourist pass to get unlimited travel in the day!"
+      }
+
+      {
+        "number": 8,
+        "question": "Do I need to tip in the country?",
+        "answers": [
+          "Yes",
+          "No",
+    
+        
+        ],
+        "correct_answer": "Yes",
+        "pop": "Tipping is encouraged when you experience good service, and this would be above the standard 10 percent gratuity to your bill added by some restaurants and hotels."
+      }
+
+      {
+        "number": 9,
+        "question": "What converter do I need in the country?",
+        "answers": [
+          "typea_socket.png",
+          "typeg_socket.png",
+          "typed_socket.png",
+          "typec_socket.png"
+    
+        
+        ],
+        "correct_answer": "typeg_socket.png",
+        "pop": "The standard electrical current used in Singapore is 220-240 volts AC (50 cycles) and you can use power plugs with three square prongs here."
+      }
+
+      {
+        "number": 10,
+        "question": "How do I say Hello in the local language?",
+        "answers": [
+          "Chao",
+          "Hello",
+          "Ni-Hao",
+          "Selamat-pagi",
+          "Vaṇakkam",
+          "Kon'nichiwa"
+    
+        
+        ],
+        "correct_answer": "Hello Ni-Hao Selamat-pagi Vaṇakkam",
+        "pop": "Feel free to greet the locals in any of the four languages!"
+      }
+
+    ]
+  }
